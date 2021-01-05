@@ -1,15 +1,21 @@
 body{
     font-family: 'Poppins', sans-serif;
-
+    margin: 0px;
 }
 
-.h1{
+h1{
 
     font-size: 50px;
 
 }
 
-.First-Color{
+p{
+
+    color: dimgray;
+
+}
+
+.orange-highlight{
 
     color: orange;
 
@@ -27,4 +33,104 @@ body{
 .half-width img{
 
     width: 100%;
+    
+}
+
+.top-banner{
+
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+section{
+    height: 500px;
+    padding: 30px;
+}
+
+.link-button{
+    
+    text-decoration: none;
+    background-image: linear-gradient(10deg, orange, tomato);
+    padding: 10px 20px;
+    color: white;
+    border-radius: 15px;
+
+
+}
+
+.dream-big{
+    width: 40%;
+    float: left;
+    padding-left: 2%;
+    margin-left: 5%;
+
+}
+
+.dream-big img{
+    width: 100%;
+
+}
+
+.download-resume{
+    text-decoration: none;
+   background-image: linear-gradient(10deg, rgb(235, 100, 100), tomato);
+   color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+
+}   
+
+.dream-part{
+
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.middle-half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+
+    
+}
+
+.single-experiences{
+
+    box-shadow: 10px 10px 40px grey;
+    height: 60%;
+
+}
+
+.experiences-area{
+
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: white;
+
+}
+
+#full-stack{
+    border-image: linear-gradient(salmon, tomato);
+    border-left: 7px solid;
+    border-image-slice: 1;
+
+}
+
+#baby-developer{
+    border-image: linear-gradient(blue, cyan);
+    border-left: 7px solid;
+    border-image-slice: 1;
+    
+    
+
+}
+
+footer{
+    text-align: center;
+    font-size: 12px;
+
 }
